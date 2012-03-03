@@ -14,34 +14,34 @@ phpVMS VAForum2 Addon
 Credit to simpilot for the VAForum original on which this is based.
 Code is provided "as is", all the same rules & licenses apply:
 
->> *This addon will not work with the 700 version or beta's less than version 785
->> 
->> A simple forum board system that is contained within your phpVMS install.
->> 
->> To Install:
->> 
->> 1 - download attached package and unzip
->> 2 - place the folders/files in your phpVMS install as they are structured in the package
->> 3 - use the forum.sql file to create the new db tables using phpmyadmin or the like
->> 4 - you are done!
->> 
->> The system makes the pilot with id #1 in the db the main forum admin and can not be changed unless you do it through the db. There are four levels of user for the board:
->> 
->> 1 - User - has rights to post messages
->> 2 - Moderator - User permissions plus the ability to edit topics and posts
->> 3 - Admin - User & Moderator permissions plus rights to create new boards and set user permissions.
->> 4 - Banned - Can see boards but no posting permissions.
->> 
->> To link to the forum index use ->
->> 
->> ```<a href="<?php echo url('/Forum'); ?>">Forum</a>```
->> 
->> 
->> Moderator editing links are located within the topics and posts
->> 
->> Admin board creation and user administration links are at the bottom of the forum index
->> 
->> EDIT - *Do not delete the sample board before creating another one or just edit the sample board to fit your needs. Will be updating the code to avoid this in the next version.
+> *This addon will not work with the 700 version or beta's less than version 785
+> 
+> A simple forum board system that is contained within your phpVMS install.
+> 
+> To Install:
+> 
+> 1 - download attached package and unzip
+> 2 - place the folders/files in your phpVMS install as they are structured in the package
+> 3 - use the forum.sql file to create the new db tables using phpmyadmin or the like
+> 4 - you are done!
+> 
+> The system makes the pilot with id #1 in the db the main forum admin and can not be changed unless you do it through the db. There are four levels of user for the board:
+> 
+> 1 - User - has rights to post messages
+> 2 - Moderator - User permissions plus the ability to edit topics and posts
+> 3 - Admin - User & Moderator permissions plus rights to create new boards and set user permissions.
+> 4 - Banned - Can see boards but no posting permissions.
+> 
+> To link to the forum index use ->
+> 
+> ```<a href="<?php echo url('/Forum'); ?>">Forum</a>```
+> 
+> 
+> Moderator editing links are located within the topics and posts
+> 
+> Admin board creation and user administration links are at the bottom of the forum index
+> 
+> EDIT - *Do not delete the sample board before creating another one or just edit the sample board to fit your needs. Will be updating the code to avoid this in the next version.
 
 --------------------------------
 
