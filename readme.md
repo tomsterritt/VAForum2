@@ -4,12 +4,12 @@ phpVMS VAForum2 Addon
 ###Update from VAForum1/VAForum2 Pre-release:
 - Import "update.sql" file to database
 - Upload all files provided in core/ folder (necessary changes to all templates)
-- Add the following somewhere between your <head> and </head> tags in layout.tpl: `<? Template::Show('forum_style.tpl'); ?>`
+- Add the following somewhere between your `<head>` and `</head>` tags in layout.tpl: `<? Template::Show('forum_style.tpl'); ?>`
 
 ###Fresh install:
 - Import "install.sql" file to database
 - Upload all files provided in core/ folder
-- Add the following somewhere between your <head> and </head> tags in layout.tpl: `<? Template::Show('forum_style.tpl'); ?>`
+- Add the following somewhere between your `<head>` and `</head>` tags in layout.tpl: `<? Template::Show('forum_style.tpl'); ?>`
 
 Credit to simpilot for the VAForum original on which this is based.
 Code is provided "as is", all the same rules & licenses apply:
