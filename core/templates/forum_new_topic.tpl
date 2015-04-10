@@ -5,6 +5,7 @@
 <?php $this->show('forum_nav.tpl'); ?>
 <? $forumdata = ForumData::get_forum_name($forum_id); ?>
 <h3>Post New Topic in <? echo $forumdata->forum_name; ?></h3>
+<script src="/lib/js/ckeditor/ckeditor.js"></script>
 <center>
     <form action="<?php echo url('/Forum');?>" method="post" enctype="multipart/form-data">
         <table width="80%">
@@ -22,7 +23,7 @@
             </tr>
             <tr>
                 <td align="right">Message: </td>
-                <td align="left"><textarea rows="10" cols="50" name="message" value=""></textarea></td>
+                <td align="left"><textarea class="ckeditor" rows="10" cols="50" name="message" value=""></textarea></td>
             </tr>
             <tr>
                 <td colspan="2">
